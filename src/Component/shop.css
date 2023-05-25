@@ -1,0 +1,70 @@
+.Shop {
+    text-align: left;
+    margin-top: 0rem;
+  }
+
+  .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  input {
+    margin-right: 1rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 7px;
+    padding: 0.5rem 0rem;
+  }
+
+  button {
+    padding: 0.6rem  1.5rem;
+    font-size: 1rem;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  h1{
+ text-align: center;
+ color: white;
+ padding-top: 3rem;
+ margin-bottom: 2rem;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+  }
+
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background-color: white;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    margin-left: 450px;
+    margin-right: 450px;
+  }
+
+  li span {
+    flex-grow: 1;
+  }
+
+  li button {
+    margin-left: 1rem;
+    background-color:brown;
+  }
+  body{
+    background-color: black;
+  }
